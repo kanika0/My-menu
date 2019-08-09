@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/im"
+    tools:context="rcew.mymenu.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:height="50dp"
+            android:textStyle="bold"
+            android:text="ITEM" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:height="50dp"
+            android:textStyle="bold"
+            android:text="QUANTITY" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="PRICE" />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cornetto" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="59dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:width="10dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="Rs.40" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="chocobar" />
+
+        <Button
+            android:id="@+id/button1"
+
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:width="10dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="Rs.20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="orange" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="57dp"
+            android:layout_marginRight="150dp"
+            android:layout_height="wrap_content"
+            android:width="10dp"
+            android:text="+" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="Rs.10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vanilla" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+
+            android:width="10dp"
+            android:text="+" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:textStyle="bold"
+            android:text="Rs.30" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Gourmet" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="57dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:width="10dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:text="Rs.35"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Submitt" />
+
+    </LinearLayout>
+
+</LinearLayout>
